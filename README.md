@@ -1,4 +1,13 @@
 # Semantic Segmentation
+
+---
+
+[//]: # (Image References)
+
+[img1]: ./um_000013.png "img1"
+[img2]: ./um_000013.png "img2"
+[c1-HLS]: ./examples/challenge-1HLS.jpeg "c1-HLS"
+
 ### Introduction
 The aim of this project is to create a fully convolution network to do segmantic segmentation on the images of roads with vehicles, pedestrains and other objects and accurately predict the road portion. 
 
@@ -10,7 +19,7 @@ The network is trained for 50 epochs on a AWS instances for faster training.
 Observations:
 The loss keeps going down with each epoch and after 50 epochs, there isn't a lot of noticvable improvement.Soome samples of the resulst are below.
 
-
+![alt text][img1]![alt text][img2]
 
 
 ## Original Readme from Udacity for set up 
