@@ -1,6 +1,19 @@
 # Semantic Segmentation
 ### Introduction
-In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
+The aim of this project is to create a fully convolution network to do segmantic segmentation on the images of roads with vehicles, pedestrains and other objects and accurately predict the road portion. 
+
+### Network
+This net uses a pre-trained VGG16 classifier followed by a 1x1 convolution to convert it into a fullly convolution network. We further add skip layers at the 3rd, 4th, 7th layers along with upsampling appropriately. We use an Adam optimizer and cross-entropy for loss function.
+
+The network is trained for 50 epochs on a AWS instances for faster training.
+
+Observations:
+The loss keeps going down with each epoch and after 50 epochs, there isn't a lot of noticvable improvement.Soome samples of the resulst are below.
+
+
+
+
+## Original Readme from Udacity for set up 
 
 ### Setup
 ##### Frameworks and Packages
