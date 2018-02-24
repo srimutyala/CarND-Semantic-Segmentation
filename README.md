@@ -5,8 +5,20 @@
 [//]: # (Image References)
 
 [img1]: ./um_000013.png "img1"
-[img2]: ./um_000013.png "img2"
-[c1-HLS]: ./examples/challenge-1HLS.jpeg "c1-HLS"
+[img2]: ./um_000016.png "img2"
+[img3]: ./um_000022.png "img3"
+[img4]: ./um_000029.png "img4"
+[img5]: ./um_000063.png "img5"
+[img6]: ./um_000086.png "img6"
+[img7]: ./um_000089.png "img7"
+[img8]: ./umm_000012.png "img8"
+[img9]: ./umm_000041.png "img9"
+[img10]: ./uu_000013.png "img10"
+[img11]: ./uu_000027.png "img11"
+[img12]: ./uu_000073.png "img12"
+[img13]: ./uu_000085.png "img13"
+[img14]: ./uu_000091.png "img14"
+
 
 ### Introduction
 The aim of this project is to create a fully convolution network to do segmantic segmentation on the images of roads with vehicles, pedestrains and other objects and accurately predict the road portion. 
@@ -19,7 +31,7 @@ The network is trained for 50 epochs on a AWS instances for faster training.
 Observations:
 The loss keeps going down with each epoch and after 50 epochs, there isn't a lot of noticvable improvement.Soome samples of the resulst are below.
 
-![alt text][img1]![alt text][img2]
+![alt text][img1]![alt text][img2]![alt text][img3]![alt text][img4]![alt text][img5]![alt text][img6]![alt text][img7]![alt text][img8]![alt text][img9]![alt text][img10]![alt text][img11]![alt text][img12]![alt text][img13]![alt text][img14]
 
 
 ## Original Readme from Udacity for set up 
